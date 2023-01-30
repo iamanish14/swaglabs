@@ -12,14 +12,14 @@ public class Loginpage extends baseclass {
 		this.driver = xdriver;
 		PageFactory.initElements(driver, this);
 	}
-	
-	@FindBy(id="user-name")
+
+	@FindBy(id = "user-name")
 	private WebElement usernamee;
-	
-	@FindBy(id="password")
+
+	@FindBy(id = "password")
 	private WebElement passwordd;
-	
-	@FindBy(id="login-button")
+
+	@FindBy(id = "login-button")
 	private WebElement loginbuttonn;
 
 	public WebElement getUsernamee() {

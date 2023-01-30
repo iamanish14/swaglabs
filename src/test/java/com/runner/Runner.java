@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features="src\\test\\java\\com\\swaglabs\\swaglab.feature",
 glue={"com.stepdefenition","com.hooks"},
 dryRun=false,
-plugin = {"html:report/swaglabs.html","json:report/swaglabs.json"},
+plugin = {"html:report/swaglabs.html","json:report/swaglabs.json","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 publish = true,
 monochrome = true
 

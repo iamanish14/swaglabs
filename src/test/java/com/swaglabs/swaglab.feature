@@ -1,5 +1,6 @@
 Feature: Simple Swaglab login
 
+  @Smoketest
   Scenario: login with valid username and password
     Given user launch the "chrome" browser
     And user navigate to the url "https://www.saucedemo.com/"
